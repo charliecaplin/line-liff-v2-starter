@@ -1,21 +1,19 @@
 {
-  "name": "line-liff-v2-starter",
+  "name": "Pure Blood Werewolf Liff App",
   "version": "1.0.0",
-  "description": "This is a small web application that demonstrates the basic functionality of the [LINE Front-end Framework (LIFF)](https://developers.line.biz/en/docs/liff/overview/).",
+  "description": "Line Liff V2 Starter.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node index.js"
   },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/line/line-liff-v2-starter"
-  },
   "license": "MIT",
   "dependencies": {
-    "express": "^4.17.1"
+    "express": "^4.17.1",
+    "ssl-express-www": ">=3.08"
   },
   "engines": {
-    "node": "10.x"
+    "node": "16.9.1",
+    "npm": "7.21.2"
   }
 }
